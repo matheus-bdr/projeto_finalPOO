@@ -15,7 +15,7 @@ public class Serie extends Entreterimento {
     public void setQuantidadeDeEpisodeos(String quantidadeDeEpisodeos) {
         this.quantidadeDeEpisodeos = quantidadeDeEpisodeos;
     }
-    public Serie(String direcao, String dataDeLancamento, String ranking, int classificacaIndicativa){
-        super(ranking, direcao, dataDeLancamento, classificacaIndicativa, classificacaIndicativa);
+    public Serie(String nome, String direcao, String dataDeLancamento, double ranking, int classificacaIndicativa){
+        super(nome, direcao, dataDeLancamento, classificacaIndicativa, ranking);
     }
 }
